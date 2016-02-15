@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Test" deleteMissingItems="true">
+    <serverData>
+      <paths name="Test">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="applied_project_web_client" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
