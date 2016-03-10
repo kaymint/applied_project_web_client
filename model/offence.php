@@ -30,6 +30,12 @@ class Offence extends adb_object{
         return $this->query($str_query);
     }
 
+    /**
+     * Executes a query to get the offences by a driver
+     *
+     * @param $driver
+     * @return bool
+     */
     function getDriverOffence($driver){
         $str_query = "SELECT *
                       FROM offence O INNER JOIN vehicle V
