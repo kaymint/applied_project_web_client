@@ -71,4 +71,14 @@ class Fines extends adb_object{
         return $this->query($str_query);
     }
 
+
+    function payFine($offence_id){
+        $str_query = "UPDATE fines SET
+                      time_paid = NOW(),
+                      payment_status = 'PAID'
+                      WHERE fine_id = $offence_id";
+
+        return $this->query($str_query);
+    }
+
 }

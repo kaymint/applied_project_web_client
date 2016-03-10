@@ -2,11 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d360cab2-fd5e-46dc-9ad3-f6bf5f309af7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/AbstractApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/AbstractHttpClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/AccountApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/AccountContact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/AccountProfile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Action.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ApiHost.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ApiList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/BasicAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/BasicHttpClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/BasicRequestHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Campaign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/CommonUtil.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ConsoleLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ContactApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ContactGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ContentApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ContentFolder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ContentLibrary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ContentMedia.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/CurlException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Enum.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/FileExtensionMimeTypeMapping.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/HttpDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/HttpGet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/HttpHead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/HttpPost.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/HttpPut.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/HttpRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/HttpResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/HttpStatusCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Invoice.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/JsonHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/MediaInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/MessageDirection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/MessageResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/MessageTemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/MessageType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/MessagingApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/MoKeyWord.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/NumberPlan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/NumberPlanItem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/OAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/RequestHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/RequestLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Sender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Service.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/ServiceType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Setting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/SupportApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Tag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Ticket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/TicketResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/Topup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/TopupLocation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Smsgh/mime.types" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/config.php" afterPath="$PROJECT_DIR$/model/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/fines.php" afterPath="$PROJECT_DIR$/model/fines.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/offence.php" afterPath="$PROJECT_DIR$/model/offence.php" />
     </list>
     <ignored path="applied_project_web_client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,35 +143,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="law_enforcer.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/law_enforcer.php">
+      <file leaf-file-name="adb_prepared_statements.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/adb_prepared_statements.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26966292">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="26" />
               <folding>
-                <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1457569716000" expanded="true" signature="438:483" placeholder="SELECT * FRO... law_enforcers" />
-                <marker date="1457569716000" expanded="true" signature="849:911" placeholder="INSERT INTO law_enforcers... " />
-                <marker date="1457569716000" expanded="true" signature="849:960" placeholder="INSERT INTO law_enforcers... " />
-                <marker date="1457569716000" expanded="true" signature="849:1007" placeholder="INSERT INTO law_enforcers... " />
-                <marker date="1457569716000" expanded="true" signature="849:1053" placeholder="INSERT INTO law_enforcers... " />
-                <marker date="1457569716000" expanded="true" signature="849:1099" placeholder="INSERT INTO law_enforcers... " />
-                <marker date="1457569716000" expanded="true" signature="1312:1339" placeholder="SELECT * FRO... law_enforcers" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vehicle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/vehicle.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.25">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-              <folding>
-                <element signature="e#6#95#0#PHP" expanded="true" />
-                <marker date="1457571762000" expanded="true" signature="446:453" placeholder="SELECT * FRO... " />
-                <marker date="1457571762000" expanded="true" signature="446:454" placeholder="SELECT * FRO... " />
-                <marker date="1457571762000" expanded="true" signature="446:609" placeholder="SELECT * FRO... vehicle" />
+                <marker date="1455527163000" expanded="true" signature="456:840" placeholder="SELECT COUNT... wine" />
+                <marker date="1455527163000" expanded="true" signature="1233:1352" placeholder="INSERT INTO wine... " />
+                <marker date="1455527163000" expanded="true" signature="1900:2169" placeholder="UPDATE wine " />
+                <marker date="1455527163000" expanded="true" signature="2663:3254" placeholder="SELECT DISTI... wine" />
+                <marker date="1455527163000" expanded="true" signature="3564:4165" placeholder="SELECT W.win... wine" />
+                <marker date="1455527163000" expanded="true" signature="4273:4884" placeholder="SELECT DISTI... wine" />
+                <marker date="1455527163000" expanded="true" signature="4996:5609" placeholder="SELECT DISTI... wine" />
+                <marker date="1455527163000" expanded="true" signature="5719:6323" placeholder="SELECT DISTI... wine" />
+                <marker date="1455527163000" expanded="true" signature="6430:6516" placeholder="SELECT * FRO... wine_type" />
+                <marker date="1455527163000" expanded="true" signature="6801:7420" placeholder="SELECT DISTI... wine" />
+                <marker date="1455527163000" expanded="true" signature="7523:8082" placeholder="SELECT DISTI... wine" />
+                <marker date="1455527163000" expanded="true" signature="8187:8745" placeholder="SELECT DISTI... wine" />
+                <marker date="1455527163000" expanded="true" signature="8848:9534" placeholder="SELECT DISTI... wine" />
+                <marker date="1455527163000" expanded="true" signature="9648:10010" placeholder="SELECT W.win... wine" />
+                <marker date="1455527163000" expanded="true" signature="10119:10161" placeholder="SELECT * FRO... winery" />
+                <marker date="1455527163000" expanded="true" signature="10270:10319" placeholder="SELECT * FRO... grape_variety" />
               </folding>
             </state>
           </provider>
@@ -124,53 +173,8 @@
       <file leaf-file-name="adb_procedural.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/adb_procedural.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-52.5">
+            <state vertical-scroll-proportion="-15.166667">
               <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="offence.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/offence.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.625">
-              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-              <folding>
-                <element signature="e#6#102#0#PHP" expanded="true" />
-                <marker date="1457573734000" expanded="true" signature="410:482" placeholder="INSERT INTO offence... " />
-                <marker date="1457573734000" expanded="true" signature="410:528" placeholder="INSERT INTO offence... " />
-                <marker date="1457573734000" expanded="true" signature="763:1012" placeholder="SELECT * FRO... offence" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shutter_cop_db.vehicle" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.vehicle">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shutter_cop_db.offence" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.offence">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,8 +183,18 @@
       <file leaf-file-name="adb_object.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/adb_object.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Api.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/Smsgh/Api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,7 +203,7 @@
       <file leaf-file-name="driver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/driver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="32.708332">
+            <state vertical-scroll-proportion="-5.0">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="e#6#95#0#PHP" expanded="true" />
@@ -232,19 +246,66 @@
       <file leaf-file-name="fines.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/fines.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-42.5">
-              <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+            <state vertical-scroll-proportion="-34.166668">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#6#95#0#PHP" expanded="true" />
-                <marker date="1457575975000" expanded="true" signature="358:414" placeholder="INSERT INTO fines... " />
-                <marker date="1457575975000" expanded="true" signature="358:415" placeholder="INSERT INTO fines... " />
-                <marker date="1457575975000" expanded="true" signature="358:416" placeholder="INSERT INTO fines... " />
-                <marker date="1457575975000" expanded="true" signature="358:543" placeholder="INSERT INTO fines... " />
-                <marker date="1457575975000" expanded="true" signature="776:1110" placeholder="SELECT * FRO... fines" />
-                <marker date="1457575975000" expanded="true" signature="776:1111" placeholder="SELECT * FRO... fines" />
-                <marker date="1457575975000" expanded="true" signature="1344:1678" placeholder="SELECT * FRO... fines" />
-                <marker date="1457575975000" expanded="true" signature="1344:1739" placeholder="SELECT * FRO... fines" />
+                <marker date="1457576943000" expanded="true" signature="358:414" placeholder="INSERT INTO fines... " />
+                <marker date="1457576943000" expanded="true" signature="358:415" placeholder="INSERT INTO fines... " />
+                <marker date="1457576943000" expanded="true" signature="358:416" placeholder="INSERT INTO fines... " />
+                <marker date="1457576943000" expanded="true" signature="358:543" placeholder="INSERT INTO fines... " />
+                <marker date="1457576943000" expanded="true" signature="776:1110" placeholder="SELECT * FRO... fines" />
+                <marker date="1457576943000" expanded="true" signature="776:1111" placeholder="SELECT * FRO... fines" />
+                <marker date="1457576943000" expanded="true" signature="1344:1678" placeholder="SELECT * FRO... fines" />
+                <marker date="1457576943000" expanded="true" signature="1344:1739" placeholder="SELECT * FRO... fines" />
+                <marker date="1457576943000" expanded="true" signature="1849:1991" placeholder="UPDATE fines... " />
+                <marker date="1457576943000" expanded="true" signature="1849:1992" placeholder="UPDATE fines... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shutter_cop_db.driver" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.driver">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shutter_cop_db.fines" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.fines">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shutter_cop_db.offence" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.offence">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -272,8 +333,8 @@
         <option value="$PROJECT_DIR$/model/law_enforcer.php" />
         <option value="$PROJECT_DIR$/model/vehicle.php" />
         <option value="$PROJECT_DIR$/model/offence.php" />
-        <option value="$PROJECT_DIR$/model/fines.php" />
         <option value="$PROJECT_DIR$/model/config.php" />
+        <option value="$PROJECT_DIR$/model/fines.php" />
       </list>
     </option>
   </component>
@@ -291,9 +352,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="459" />
+    <option name="x" value="234" />
     <option name="y" value="38" />
-    <option name="width" value="1004" />
+    <option name="width" value="1229" />
     <option name="height" value="755" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -381,10 +442,10 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/model" />
     </key>
   </component>
@@ -462,19 +523,25 @@
       <option name="project" value="LOCAL" />
       <updated>1457573676817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Wrote model for vehicle class&#10;">
+      <created>1457576132545</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457576132545</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="459" y="38" width="1004" height="755" extended-state="0" />
-    <editor active="true" />
+    <frame x="234" y="38" width="1229" height="755" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15280665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12384162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21978022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24324325" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.368155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -832,7 +899,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.driver">
+    <entry file="file://$PROJECT_DIR$/model/law_enforcer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.875">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <marker date="1457569716000" expanded="true" signature="438:483" placeholder="SELECT * FRO... law_enforcers" />
+            <marker date="1457569716000" expanded="true" signature="849:911" placeholder="INSERT INTO law_enforcers... " />
+            <marker date="1457569716000" expanded="true" signature="849:960" placeholder="INSERT INTO law_enforcers... " />
+            <marker date="1457569716000" expanded="true" signature="849:1007" placeholder="INSERT INTO law_enforcers... " />
+            <marker date="1457569716000" expanded="true" signature="849:1053" placeholder="INSERT INTO law_enforcers... " />
+            <marker date="1457569716000" expanded="true" signature="849:1099" placeholder="INSERT INTO law_enforcers... " />
+            <marker date="1457569716000" expanded="true" signature="1312:1339" placeholder="SELECT * FRO... law_enforcers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/offence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="e#6#102#0#PHP" expanded="true" />
+            <marker date="1457573734000" expanded="true" signature="410:482" placeholder="INSERT INTO offence... " />
+            <marker date="1457573734000" expanded="true" signature="410:528" placeholder="INSERT INTO offence... " />
+            <marker date="1457573734000" expanded="true" signature="763:1012" placeholder="SELECT * FRO... offence" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/vehicle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.25">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="e#6#95#0#PHP" expanded="true" />
+            <marker date="1457571762000" expanded="true" signature="446:453" placeholder="SELECT * FRO... " />
+            <marker date="1457571762000" expanded="true" signature="446:454" placeholder="SELECT * FRO... " />
+            <marker date="1457571762000" expanded="true" signature="446:609" placeholder="SELECT * FRO... vehicle" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.vehicle">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.offence">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -858,40 +981,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/adb_prepared_statements.php">
+    <entry file="file://$PROJECT_DIR$/model/fines.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="26" />
+        <state vertical-scroll-proportion="-34.166668">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
-            <marker date="1455527163000" expanded="true" signature="456:840" placeholder="SELECT COUNT... wine" />
-            <marker date="1455527163000" expanded="true" signature="1233:1352" placeholder="INSERT INTO wine... " />
-            <marker date="1455527163000" expanded="true" signature="1900:2169" placeholder="UPDATE wine " />
-            <marker date="1455527163000" expanded="true" signature="2663:3254" placeholder="SELECT DISTI... wine" />
-            <marker date="1455527163000" expanded="true" signature="3564:4165" placeholder="SELECT W.win... wine" />
-            <marker date="1455527163000" expanded="true" signature="4273:4884" placeholder="SELECT DISTI... wine" />
-            <marker date="1455527163000" expanded="true" signature="4996:5609" placeholder="SELECT DISTI... wine" />
-            <marker date="1455527163000" expanded="true" signature="5719:6323" placeholder="SELECT DISTI... wine" />
-            <marker date="1455527163000" expanded="true" signature="6430:6516" placeholder="SELECT * FRO... wine_type" />
-            <marker date="1455527163000" expanded="true" signature="6801:7420" placeholder="SELECT DISTI... wine" />
-            <marker date="1455527163000" expanded="true" signature="7523:8082" placeholder="SELECT DISTI... wine" />
-            <marker date="1455527163000" expanded="true" signature="8187:8745" placeholder="SELECT DISTI... wine" />
-            <marker date="1455527163000" expanded="true" signature="8848:9534" placeholder="SELECT DISTI... wine" />
-            <marker date="1455527163000" expanded="true" signature="9648:10010" placeholder="SELECT W.win... wine" />
-            <marker date="1455527163000" expanded="true" signature="10119:10161" placeholder="SELECT * FRO... winery" />
-            <marker date="1455527163000" expanded="true" signature="10270:10319" placeholder="SELECT * FRO... grape_variety" />
+            <element signature="e#6#95#0#PHP" expanded="true" />
+            <marker date="1457576943000" expanded="true" signature="358:414" placeholder="INSERT INTO fines... " />
+            <marker date="1457576943000" expanded="true" signature="358:415" placeholder="INSERT INTO fines... " />
+            <marker date="1457576943000" expanded="true" signature="358:416" placeholder="INSERT INTO fines... " />
+            <marker date="1457576943000" expanded="true" signature="358:543" placeholder="INSERT INTO fines... " />
+            <marker date="1457576943000" expanded="true" signature="776:1110" placeholder="SELECT * FRO... fines" />
+            <marker date="1457576943000" expanded="true" signature="776:1111" placeholder="SELECT * FRO... fines" />
+            <marker date="1457576943000" expanded="true" signature="1344:1678" placeholder="SELECT * FRO... fines" />
+            <marker date="1457576943000" expanded="true" signature="1344:1739" placeholder="SELECT * FRO... fines" />
+            <marker date="1457576943000" expanded="true" signature="1849:1991" placeholder="UPDATE fines... " />
+            <marker date="1457576943000" expanded="true" signature="1849:1992" placeholder="UPDATE fines... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/adb_procedural.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-52.5">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.offence">
+    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.driver">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -901,69 +1011,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.vehicle">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/adb_object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/offence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.625">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="e#6#102#0#PHP" expanded="true" />
-            <marker date="1457573734000" expanded="true" signature="410:482" placeholder="INSERT INTO offence... " />
-            <marker date="1457573734000" expanded="true" signature="410:528" placeholder="INSERT INTO offence... " />
-            <marker date="1457573734000" expanded="true" signature="763:1012" placeholder="SELECT * FRO... offence" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/vehicle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="true" />
-            <marker date="1457571762000" expanded="true" signature="446:453" placeholder="SELECT * FRO... " />
-            <marker date="1457571762000" expanded="true" signature="446:454" placeholder="SELECT * FRO... " />
-            <marker date="1457571762000" expanded="true" signature="446:609" placeholder="SELECT * FRO... vehicle" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/driver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="32.708332">
+        <state vertical-scroll-proportion="-5.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
@@ -990,38 +1043,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/fines.php">
+    <entry file="file://$PROJECT_DIR$/model/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-42.5">
-          <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
-            <marker date="1457575975000" expanded="true" signature="358:414" placeholder="INSERT INTO fines... " />
-            <marker date="1457575975000" expanded="true" signature="358:415" placeholder="INSERT INTO fines... " />
-            <marker date="1457575975000" expanded="true" signature="358:416" placeholder="INSERT INTO fines... " />
-            <marker date="1457575975000" expanded="true" signature="358:543" placeholder="INSERT INTO fines... " />
-            <marker date="1457575975000" expanded="true" signature="776:1110" placeholder="SELECT * FRO... fines" />
-            <marker date="1457575975000" expanded="true" signature="776:1111" placeholder="SELECT * FRO... fines" />
-            <marker date="1457575975000" expanded="true" signature="1344:1678" placeholder="SELECT * FRO... fines" />
-            <marker date="1457575975000" expanded="true" signature="1344:1739" placeholder="SELECT * FRO... fines" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/law_enforcer.php">
+    <entry file="file://$PROJECT_DIR$/model/adb_procedural.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26966292">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state vertical-scroll-proportion="-15.166667">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/adb_prepared_statements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="26" />
           <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1457569716000" expanded="true" signature="438:483" placeholder="SELECT * FRO... law_enforcers" />
-            <marker date="1457569716000" expanded="true" signature="849:911" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1457569716000" expanded="true" signature="849:960" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1457569716000" expanded="true" signature="849:1007" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1457569716000" expanded="true" signature="849:1053" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1457569716000" expanded="true" signature="849:1099" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1457569716000" expanded="true" signature="1312:1339" placeholder="SELECT * FRO... law_enforcers" />
+            <marker date="1455527163000" expanded="true" signature="456:840" placeholder="SELECT COUNT... wine" />
+            <marker date="1455527163000" expanded="true" signature="1233:1352" placeholder="INSERT INTO wine... " />
+            <marker date="1455527163000" expanded="true" signature="1900:2169" placeholder="UPDATE wine " />
+            <marker date="1455527163000" expanded="true" signature="2663:3254" placeholder="SELECT DISTI... wine" />
+            <marker date="1455527163000" expanded="true" signature="3564:4165" placeholder="SELECT W.win... wine" />
+            <marker date="1455527163000" expanded="true" signature="4273:4884" placeholder="SELECT DISTI... wine" />
+            <marker date="1455527163000" expanded="true" signature="4996:5609" placeholder="SELECT DISTI... wine" />
+            <marker date="1455527163000" expanded="true" signature="5719:6323" placeholder="SELECT DISTI... wine" />
+            <marker date="1455527163000" expanded="true" signature="6430:6516" placeholder="SELECT * FRO... wine_type" />
+            <marker date="1455527163000" expanded="true" signature="6801:7420" placeholder="SELECT DISTI... wine" />
+            <marker date="1455527163000" expanded="true" signature="7523:8082" placeholder="SELECT DISTI... wine" />
+            <marker date="1455527163000" expanded="true" signature="8187:8745" placeholder="SELECT DISTI... wine" />
+            <marker date="1455527163000" expanded="true" signature="8848:9534" placeholder="SELECT DISTI... wine" />
+            <marker date="1455527163000" expanded="true" signature="9648:10010" placeholder="SELECT W.win... wine" />
+            <marker date="1455527163000" expanded="true" signature="10119:10161" placeholder="SELECT * FRO... winery" />
+            <marker date="1455527163000" expanded="true" signature="10270:10319" placeholder="SELECT * FRO... grape_variety" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/adb_object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Smsgh/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
