@@ -9,7 +9,7 @@
 
 require_once 'config.php';
 
-class adb_procedural extends mysqli{
+class adb_procedural{
 
     var $result;
     var $link;

@@ -30,10 +30,17 @@ class adb_object {
     }
 
 
+    function escape($str_sql){
+        return $this->mysqli->real_escape_string($str_sql);
+    }
+
+
     function query($str_query){
         if(!isset($this->mysqli)){
             $this->connect();
         }
+
+        $str_query = $this->escape($str_query);
 
         $this->result = $this->mysqli->query($str_query);
 
