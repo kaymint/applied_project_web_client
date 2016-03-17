@@ -28,6 +28,7 @@ class driver extends adb_object{
     function getDriver($id){
         $str_query = "SELECT * FROM driver WHERE PIN = '$id'";
 
+
         return $this->query($str_query);
     }
 
@@ -83,3 +84,15 @@ class driver extends adb_object{
         return $this->query($str_query);
     }
 }
+
+
+//$driver = new driver();
+////
+////echo $driver->getDriver('ANSA-100294-02-10');
+//if($driver->getDriver('ANSA-100294-02-10')){
+//    echo 'Success';
+//    $row = $driver->fetch();
+//    var_dump($row);
+//}
+
+

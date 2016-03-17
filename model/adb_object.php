@@ -40,9 +40,10 @@ class adb_object {
             $this->connect();
         }
 
-        $str_query = $this->escape($str_query);
+//        $str_query = $this->escape($str_query);
 
         $this->result = $this->mysqli->query($str_query);
+
 
         if($this->result){
             return true;
@@ -58,6 +59,19 @@ class adb_object {
 
         if(isset($this->result)){
             return $this->result->fetch_assoc();
+        }
+
+        return false;
+    }
+
+
+
+    function fetch_all(){
+
+        //fetch data from query
+
+        if(isset($this->result)){
+            return $this->result->fetch_all(MYSQLI_ASSOC);
         }
 
         return false;
@@ -84,11 +98,12 @@ class adb_object {
 
 
 //$obj = new adb_object();
-//if($obj->query('SELECT * FROM wine')){
-//    $row = $obj->fetch();
+//if($obj->query('SELECT * FROM driver')){
+//    $row = $obj->fetch_all();
 //
-//    echo $row['year'];
+////    echo ['PIN'];
 //
+//    print_r($row);
 //    echo $obj->get_num_rows();
 //
 //    echo $obj->get_insert_id();

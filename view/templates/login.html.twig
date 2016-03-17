@@ -1,0 +1,33 @@
+{% extends "index.html.twig" %}
+
+{# Override sidebar#}
+{% block SIDEBAR %}
+
+{% endblock %}
+
+
+{% block MAINCONTENT %}
+    <div class="container">
+    <form class="form-horizontal" action="login.php" method="post">
+        <fieldset>
+            <legend>LOGIN</legend>
+            {% if invalid == true %}
+                <h1 class="alert-danger">Invalid User</h1>
+            {% endif %}
+            <div class="form-group">
+                <label for="inputPIN" class="col-lg-2 control-label">DRIVER PIN</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="inputPIN" placeholder="PIN" name="PIN">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="reset" class="btn btn-default">Cancel</button>
+                    <button type="submit" class="btn btn-primary">LOGIN</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    </div>
+
+{% endblock %}

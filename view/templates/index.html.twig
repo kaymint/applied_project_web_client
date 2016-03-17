@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Number Plate Recognition</title>
+    <meta name="description" content="Shuttercop: An Automatic Number Plate Recognition System For Ghanaian Vehicles" />
+    <meta name="keywords" content="number plate, automatic, recognition, Ghana, vehicles" />
+    <meta name="author" content="Kenneth Mintah Mensah - Ashesi" />
+    <link rel="stylesheet" href="css/bootstrap.min2.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/ionicons.min.css" type="text/css">
+</head>
+<body>
+
+{# NAVIGATION BAR#}
+{% block NAVIGATION_MENU %}
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+{% endblock %}
+
+
+{# SIDEBAR #}
+{% block SIDEBAR %}
+    <div class="col-sm-3">
+        <div class="btn-group-vertical col-sm-12">
+            <a href="#" class="btn btn-default">Dashboard</a>
+            <a href="#" class="btn btn-default">Offences</a>
+            <a href="#" class="btn btn-default">Fines</a>
+            <a href="#" class="btn btn-default">Payment</a>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block MAINCONTENT %}
+    <div class="col-sm-9">
+        <h1>Heading 1</h1>
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Library</li>
+        </ul>
+
+        <table class="table table-striped table-hover ">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Column heading</th>
+                <th>Column heading</th>
+                <th>Column heading</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+            </tr>
+            <tr class="info">
+                <td>3</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+            </tr>
+            <tr class="success">
+                <td>4</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+            </tr>
+            <tr class="danger">
+                <td>5</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+            </tr>
+            <tr class="warning">
+                <td>6</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+            </tr>
+            <tr class="active">
+                <td>7</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
