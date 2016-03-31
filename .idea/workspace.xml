@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d360cab2-fd5e-46dc-9ad3-f6bf5f309af7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/driver-controller.php" afterPath="$PROJECT_DIR$/controller/driver-controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/upload_image.php" afterPath="$PROJECT_DIR$/controller/upload_image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/adb_object.php" afterPath="$PROJECT_DIR$/model/adb_object.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/driver.php" afterPath="$PROJECT_DIR$/model/driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/law_enforcer.php" afterPath="$PROJECT_DIR$/model/law_enforcer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/offence.php" afterPath="$PROJECT_DIR$/model/offence.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/vehicle.php" afterPath="$PROJECT_DIR$/model/vehicle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/login.php" afterPath="$PROJECT_DIR$/view/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/templates/login.html.twig" afterPath="$PROJECT_DIR$/view/templates/login.html.twig" />
     </list>
     <ignored path="applied_project_web_client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,8 +118,8 @@
       <file leaf-file-name="driver.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/driver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.38043478">
+              <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
               <folding>
                 <element signature="e#6#95#0#PHP" expanded="true" />
                 <marker date="1459384748000" expanded="true" signature="488:501" placeholder="SELECT * FRO... " />
@@ -588,7 +578,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459383399617</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added functions for vehicle model class">
+      <created>1459388075833</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1459388075833</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -633,7 +629,8 @@
     <MESSAGE value="Wrote model for vehicle class&#10;" />
     <MESSAGE value="Added SMSGH Api" />
     <MESSAGE value="Added vehicle constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added vehicle constructor" />
+    <MESSAGE value="added functions for vehicle model class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functions for vehicle model class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1085,8 +1082,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/driver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.38043478">
+          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
             <marker date="1459384748000" expanded="true" signature="488:501" placeholder="SELECT * FRO... " />
