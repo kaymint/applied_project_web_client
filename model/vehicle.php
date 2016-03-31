@@ -11,8 +11,8 @@ require_once 'adb_object.php';
 class Vehicle extends adb_object{
 
 
-    function Vehicle(){
-
+    function __construct(){
+        parent:: __construct();
     }
 
 

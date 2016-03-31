@@ -14,8 +14,8 @@ class driver extends adb_object{
      *
      * driver constructor.
      */
-    function driver(){
-
+    function __construct(){
+        parent:: __construct();
     }
 
     /**

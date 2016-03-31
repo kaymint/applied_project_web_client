@@ -10,8 +10,8 @@ require_once 'adb_object.php';
 
 class Fines extends adb_object{
 
-    function Fines(){
-
+    function __construct(){
+        parent:: __construct();
     }
 
 
@@ -22,12 +22,23 @@ class Fines extends adb_object{
      * @return bool
      */
     function addFines($offence_id){
-        $str_query = "INSERT INTO fines SET
-                      offence_id = $offence_id,
+        $str_query = "INSERT INTO fines(offence_id, due_date, date_issued)
+                      offence_id = ?,
                       due_date = DATE_ADD(CURDATE(), INTERVAL 7 DAY),
                       date_issued = CURDATE()";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("i", $offence_id);
+
+
+        $stmt->execute();
+
+        return $stmt;
     }
 
 
@@ -45,9 +56,19 @@ class Fines extends adb_object{
                       ON O.vehicle_id = V.license_no
                       INNER JOIN driver D
                       ON D.PIN = V.driver
-                      WHERE D.PIN = $driver";
+                      WHERE D.PIN = ?";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("i", $driver);
+
+        $stmt->execute();
+
+        return $stmt->get_result();
     }
 
 
@@ -65,20 +86,45 @@ class Fines extends adb_object{
                       ON O.vehicle_id = V.license_no
                       INNER JOIN driver D
                       ON D.PIN = V.driver
-                      WHERE D.PIN = $driver
+                      WHERE D.PIN = ?
                       AND F.payment_status = 'UNPAID'";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("i", $driver);
+
+        $stmt->execute();
+
+        return $stmt->get_result();
     }
 
 
+    /**
+     * @param $offence_id
+     * @return bool|mysqli_stmt
+     */
     function payFine($offence_id){
         $str_query = "UPDATE fines SET
                       time_paid = NOW(),
                       payment_status = 'PAID'
-                      WHERE fine_id = $offence_id";
+                      WHERE fine_id = ?";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("i", $offence_id);
+
+
+        $stmt->execute();
+
+        return $stmt;
     }
 
 }

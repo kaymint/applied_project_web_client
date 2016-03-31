@@ -10,8 +10,8 @@ require_once 'adb_object.php';
 
 class Offence extends adb_object{
 
-    function Offence(){
-
+    function __construct(){
+        parent:: __construct();
     }
 
 
@@ -42,8 +42,18 @@ class Offence extends adb_object{
                       ON O.vehicle_id = V.license_no
                       INNER JOIN driver D
                       ON V.driver = D.PIN
-                      WHERE D.PIN = '$driver'";
+                      WHERE D.PIN = ?";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("i", $driver);
+
+        $stmt->execute();
+
+        return $stmt->get_result();
     }
 }

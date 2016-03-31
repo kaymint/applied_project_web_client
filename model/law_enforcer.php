@@ -14,8 +14,8 @@ class LawEnforcer extends adb_object{
      *
      * law_enforcer constructor.
      */
-    function LawEnforcer(){
-
+    function __construct(){
+        parent:: __construct();
     }
 
 
