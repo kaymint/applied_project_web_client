@@ -36,8 +36,8 @@ if($file = fopen('uploadedimages/'.$filename, 'wb')){
     echo 'Image failed to upload';
 //    $result = system('/usr/local/bin/python /Users/StreetHustling/PycharmProjects/image_processing_tutorials/command_line.py images/test_001.jpg', $retval);
 //    exec('cd /Users/StreetHustling/PycharmProjects/image_processing_tutorials');
-    $result = exec('/usr/local/bin/python');
-    echo $result;
+//    $result = exec('/usr/local/bin/python');
+//    echo $result;
 }
 
 

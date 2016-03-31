@@ -8,12 +8,13 @@
 
 {% block MAINCONTENT %}
     <div class="container">
-    <form class="form-horizontal" action="login.php" method="post">
+    <form class="form-horizontal" action="../controller/driver-controller.php" method="post">
         <fieldset>
             <legend>LOGIN</legend>
-            {% if invalid == true %}
+            {% if message is defined %}
                 <h1 class="alert-danger">Invalid User</h1>
             {% endif %}
+            <input type="hidden" value="1" name="cmd">
             <div class="form-group">
                 <label for="inputPIN" class="col-lg-2 control-label">DRIVER PIN</label>
                 <div class="col-lg-10">

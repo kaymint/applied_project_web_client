@@ -10,6 +10,9 @@ require_once 'adb_object.php';
 
 class Offence extends adb_object{
 
+    /**
+     * Offence constructor.
+     */
     function __construct(){
         parent:: __construct();
     }
@@ -24,10 +27,20 @@ class Offence extends adb_object{
      */
     function addOffence($vehicle_id, $location){
         $str_query = "INSERT INTO offence SET
-                      vehicle_id = '$vehicle_id',
-                      location = '$location'";
+                      vehicle_id = ?,
+                      location = ?";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("ss", $vehicle_id, $location);
+
+        $stmt->execute();
+
+        return $stmt;
     }
 
     /**
@@ -50,7 +63,7 @@ class Offence extends adb_object{
             return false;
         }
 
-        $stmt->bind_param("i", $driver);
+        $stmt->bind_param("s", $driver);
 
         $stmt->execute();
 

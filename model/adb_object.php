@@ -3,17 +3,12 @@ error_reporting(E_ERROR | E_PARSE);
 
 /**
  * Created by PhpStorm.
- * User: StreetHustling
+ * User: Kenneth Mintah Mensah
  * Date: 2/5/16
  * Time: 8:45 PM
  */
 
-define("DB_HOST", 'localhost');
-
-define("DB_NAME", 'shutter_cop_db');
-define("DB_PORT", 3306);
-define("DB_USER","root");
-define("DB_PWORD","");
+require_once 'config.php';
 
 
 class adb_object{

@@ -26,10 +26,20 @@ class driver extends adb_object{
      * @return bool
      */
     function getDriver($id){
-        $str_query = "SELECT * FROM driver WHERE PIN = '$id'";
+        $str_query = "SELECT * FROM driver WHERE PIN = ?";
 
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("s", $id);
+
+        $stmt->execute();
+
+        return $stmt->get_result();
     }
 
 
@@ -56,20 +66,31 @@ class driver extends adb_object{
         $phone){
 
         $str_query = "INSERT INTO driver SET
-                      PIN = '$pin',
-                      firstname = '$firstName',
-                      lastname = '$lastName',
-                      initial = '$initial',
-                      date_of_birth = '$dateOfBirth',
-                      address = '$address',
-                      nationality = '$nationality',
-                      date_of_issue = '$dateOfIssue',
-                      date_of_first_license = '$dateFirstLicense',
-                      expiry_date = '$expiryDate',
-                      certificate_date = '$certificationDate',
-                      phone = '$phone'";
+                      PIN = ?,
+                      firstname = ?,
+                      lastname = ?,
+                      initial = ?,
+                      date_of_birth = ?,
+                      address = ?,
+                      nationality = ?,
+                      date_of_issue = ?,
+                      date_of_first_license = ?,
+                      expiry_date = ?,
+                      certificate_date = ?,
+                      phone = ?";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("ssssssssssss", $pin, $firstName, $lastName, $initial, $dateOfBirth, $address,
+            $nationality, $dateOfIssue, $dateFirstLicense, $expiryDate, $certificationDate, $phone);
+
+        $stmt->execute();
+
+        return $stmt;
     }
 
 
@@ -81,7 +102,15 @@ class driver extends adb_object{
 
         $str_query = "SELECT * FROM driver";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->execute();
+
+        return $stmt->get_result();
     }
 }
 

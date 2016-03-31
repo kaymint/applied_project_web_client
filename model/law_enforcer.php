@@ -26,9 +26,19 @@ class LawEnforcer extends adb_object{
      * @return bool
      */
     function getLawEnforcer($id){
-        $str_query = "SELECT * FROM law_enforcers WHERE PIN = '$id'";
+        $str_query = "SELECT * FROM law_enforcers WHERE PIN = ?";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("s", $id);
+
+        $stmt->execute();
+
+        return $stmt->get_result();
     }
 
 
@@ -40,18 +50,25 @@ class LawEnforcer extends adb_object{
      * @param $lastName
      * @param $position
      * @param $district
+     * @param $password
      * @return bool
      */
-    function addLawEnforcer($id, $firstName, $lastName, $position, $district){
+    function addLawEnforcer($id, $firstName, $lastName, $position, $district, $password){
 
-        $str_query = "INSERT INTO law_enforcers SET
-                      ID = '$id',
-                      first_name = '$firstName',
-                      last_name = '$lastName',
-                      position = '$position',
-                      district = '$district'";
+        $str_query = "INSERT INTO law_enforcers(ID,first_name,last_name,position,district,password)
+                      VALUES(?,?,?,?,?,?) ";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("ssssss", $id, $firstName, $lastName, $position, $district, $password);
+
+        $stmt->execute();
+
+        return $stmt;
     }
 
 
@@ -63,6 +80,14 @@ class LawEnforcer extends adb_object{
     function getLawEnforcers(){
         $str_query = "SELECT * FROM law_enforcers";
 
-        return $this->query($str_query);
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->execute();
+
+        return $stmt->get_result();
     }
 }
