@@ -19,7 +19,7 @@ class Fines extends adb_object{
      * Executes a query to add a fine
      *
      * @param $offence_id
-     * @return bool
+     * @return bool|mysqli_stmt
      */
     function addFines($offence_id){
         $str_query = "INSERT INTO fines(offence_id, due_date, date_issued)
@@ -46,7 +46,7 @@ class Fines extends adb_object{
      * Executes a query to fetch all fines by a driver
      *
      * @param $driver
-     * @return bool
+     * @return bool|mysqli_result
      */
     function getDriverFines($driver){
         $str_query = "SELECT * FROM
@@ -64,7 +64,7 @@ class Fines extends adb_object{
             return false;
         }
 
-        $stmt->bind_param("i", $driver);
+        $stmt->bind_param("s", $driver);
 
         $stmt->execute();
 
@@ -127,4 +127,33 @@ class Fines extends adb_object{
         return $stmt;
     }
 
+
+    function getFine($id){
+        $str_query = "SELECT * FROM
+                      fines F INNER JOIN offence O
+                      ON F.offence_id = O.offence_id
+                      INNER JOIN vehicle V
+                      ON O.vehicle_id = V.license_no
+                      INNER JOIN driver D
+                      ON D.PIN = V.driver
+                      WHERE F.fine_id = ?";
+
+        $stmt = $this->prepareQuery($str_query);
+
+        if($stmt === false){
+            return false;
+        }
+
+        $stmt->bind_param("i", $id);
+
+        $stmt->execute();
+
+        return $stmt->get_result();
+    }
+
 }
+
+//$fines = new Fines();
+//$result = $fines->getFine(1);
+//$row = $result->fetch_all(MYSQLI_ASSOC);
+//var_dump($row);

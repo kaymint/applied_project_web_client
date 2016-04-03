@@ -16,7 +16,7 @@ Twig_Autoloader::register();
 
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader);
-$template =$twig->loadTemplate('index.html.twig');
+$template =$twig->loadTemplate('fines.html.twig');
 $params = array();
 
 $driver = new driver();
@@ -28,10 +28,9 @@ if(isset($_SESSION['PIN'])){
     $params['initial'] = $_SESSION['initial'];
     $params['PIN'] = $_SESSION['PIN'];
 
-    $fines = new Fines();
-    $result = $fines->getDriverFines($_SESSION['PIN']);
-    $row = $result->fetch_all(MYSQLI_ASSOC);
-    $params['fines'] = $row;
+    if(isset($_SESSION['fine_details']) && isset($_REQUEST['fid'])){
+        $params['fine_details'] = $_SESSION['fine_details'];
+    }
 }
 
 

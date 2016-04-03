@@ -116,8 +116,10 @@ class driver extends adb_object{
 
 
 //$driver = new driver();
-////
-////echo $driver->getDriver('ANSA-100294-02-10');
+//////
+//$result = $driver->getDriver('ANSA-100294-02-10');
+//$row = $result->fetch_assoc();
+//var_dump($row);
 //if($driver->getDriver('ANSA-100294-02-10')){
 //    echo 'Success';
 //    $row = $driver->fetch();

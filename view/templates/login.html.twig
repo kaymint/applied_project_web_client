@@ -1,5 +1,12 @@
 {% extends "index.html.twig" %}
 
+{% block NAVIGATION_MENU %}
+    <div class="login_logo text-center">
+        <img src="img/320.png">
+    </div>
+
+{% endblock %}
+
 {# Override sidebar#}
 {% block SIDEBAR %}
 
@@ -8,15 +15,15 @@
 
 {% block MAINCONTENT %}
     <div class="container">
-    <form class="form-horizontal" action="../controller/driver-controller.php" method="post">
+    <form class="form-horizontal login_form" action="../controller/driver-controller.php" method="post">
         <fieldset>
-            <legend>LOGIN</legend>
+            <legend class="text-center">LOGIN</legend>
             {% if message is defined %}
                 <h1 class="alert-danger">Invalid User</h1>
             {% endif %}
             <input type="hidden" value="1" name="cmd">
             <div class="form-group">
-                <label for="inputPIN" class="col-lg-2 control-label">DRIVER PIN</label>
+                <label for="inputPIN" class="col-xs-2 control-label">DRIVER PIN</label>
                 <div class="col-lg-10">
                     <input type="text" class="form-control" id="inputPIN" placeholder="PIN" name="PIN">
                 </div>

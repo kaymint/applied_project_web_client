@@ -1,0 +1,75 @@
+/**
+
+#005487 -- Blue Deep
+#006699 -- Light
+#d9e8f0 -- very light
+
+*/
+
+body{
+    padding-top: 100px;
+}
+
+.navbar{
+    background: #fff;
+    box-shadow: 5px 5px 5px #888888;
+    padding: 5px;
+}
+
+.a{
+    color: #006699;
+}
+
+.logo_title{
+    padding-top: 5px;
+    color: #006699;
+    font-family: "Bauhaus 93";
+    font-size: 1.6em;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background: #006699;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a {
+    color: #006699;
+    background: none;
+    font-size: 1.5em;
+}
+
+h1{
+    color: #006699;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:20%;   /* Height of the footer */
+    background:#006699;
+}
+
+#footer img{
+    width: 40%;
+    height: auto;
+    margin: 9px;
+}
+
+.footer_logo{
+    font-family: "Bauhaus 93";
+    color: #fff;
+    font-size: 1.6em;
+}
+
+.login_logo img{
+    width: 15%;
+    height: auto;
+}
+
+.login_form{
+    margin: 20px;
+}
