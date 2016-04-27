@@ -6,6 +6,7 @@
  * Time: 10:00 AM
  */
 session_start();
+
 if(!isset($_SESSION['PIN'])){
     header("Location: login.php");
 }
@@ -19,7 +20,7 @@ Twig_Autoloader::register();
 
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader);
-$template =$twig->loadTemplate('fines.html.twig');
+$template =$twig->loadTemplate('receipt.html.twig');
 $params = array();
 
 $driver = new driver();
@@ -31,8 +32,13 @@ if(isset($_SESSION['PIN'])){
     $params['initial'] = $_SESSION['initial'];
     $params['PIN'] = $_SESSION['PIN'];
 
-    if(isset($_SESSION['fine_details']) && isset($_REQUEST['fid'])){
-        $params['fine_details'] = $_SESSION['fine_details'];
+    if(isset($_REQUEST['fid'])){
+        $fid = intval($_REQUEST['fid']);
+        $fine = new Fines();
+        $result = $fine->getReceipt($fid);
+        $row = $result->fetch_assoc();
+        $_SESSION['receipt_details'] = $row;
+        $params['receipt_details'] = $row;
     }
 }
 

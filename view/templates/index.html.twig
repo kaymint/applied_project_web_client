@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="fa fa-user"></span> Logout </a></li>
+                    <li><a href="../controller/driver-controller.php?cmd=2"><span class="fa fa-user"></span> Logout </a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
@@ -50,8 +50,8 @@
 {# SIDEBAR #}
 {% block SIDEBAR %}
     <div class="col-sm-3">
-        <img src="img/download.png" alt="logo">
-        <div class="username text-center">
+        <img style="width: 150px; height: auto" class="col-xs-8 col-md-12" src="img/download.png" alt="logo">
+        <div class="username text-center col-xs-8 col-md-12">
             <a href="#">{{ first_name }} {{ initial }} {{ last_name }}</a>
             <br>
             <br>
@@ -66,8 +66,8 @@
 
 {% block MAINCONTENT %}
     <div class="col-sm-9">
-        <h1>Fines</h1>
-        <ul class="breadcrumb">
+        <h1 class="col-xs-12">Fines</h1>
+        <ul class="breadcrumb col-xs-12">
             <li><a href="#">Home</a></li>
             <li class="active">Fines</li>
         </ul>
@@ -99,7 +99,7 @@
                 <td>{{ x.payment_status }}</td>
                 {% if x.payment_status == 'PAID' %}
                     <td>
-                        <a href="../controller/fines-controller.php?cmd=1&fid={{ x.fine_id }}" class="btn btn-success">View Receipt</a>
+                        <a href="receipt.php?fid={{ x.fine_id }}" class="btn btn-success">View Receipt</a>
                     </td>
                 {% else %}
                     <td>

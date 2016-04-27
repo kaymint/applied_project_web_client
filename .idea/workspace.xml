@@ -2,83 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d360cab2-fd5e-46dc-9ad3-f6bf5f309af7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/320.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/inverse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/logo96X96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/small_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/AbstractApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/AbstractHttpClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/AccountApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/AccountContact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/AccountProfile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ApiHost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ApiList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/BasicAuth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/BasicHttpClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/BasicRequestHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Campaign.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/CommonUtil.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ConsoleLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Contact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ContactApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ContactGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ContentApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ContentFolder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ContentLibrary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ContentMedia.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/CurlException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Enum.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/FileExtensionMimeTypeMapping.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/HttpDelete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/HttpGet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/HttpHead.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/HttpPost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/HttpPut.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/HttpRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/HttpResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/HttpStatusCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Invoice.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/JsonHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/MediaInfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Message.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/MessageDirection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/MessageResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/MessageTemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/MessageType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/MessagingApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/MoKeyWord.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/NumberPlan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/NumberPlanItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/OAuth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/RequestHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/RequestLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Sender.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Service.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/ServiceType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Setting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/SupportApi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Tag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Ticket.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/TicketResponse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/Topup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/TopupLocation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Smsgh/mime.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/sms_module/event_sms_sender.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/payment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/insurance_api/ApiTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/insurance_api/HttpHandlers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/insurance_api/Insurance_Api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/AuthApiUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ShutterCopApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Tests/FinesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Tests/OffenceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/courier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/courierb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/courierbi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/courieri.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/helvetica.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/helveticab.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/helveticabi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/helveticai.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/symbol.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/times.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/timesb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/timesbi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/timesi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/font/zapfdingbats.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/fpdf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/receipt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/receipt_gen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/templates/receipt.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/driver-controller.php" afterPath="$PROJECT_DIR$/controller/driver-controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/fines-controller.php" afterPath="$PROJECT_DIR$/controller/fines-controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/driver.php" afterPath="$PROJECT_DIR$/model/driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/offence-controller.php" afterPath="$PROJECT_DIR$/controller/offence-controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/fines.php" afterPath="$PROJECT_DIR$/model/fines.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/offence.php" afterPath="$PROJECT_DIR$/model/offence.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/css/main.css" afterPath="$PROJECT_DIR$/view/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/index.php" afterPath="$PROJECT_DIR$/view/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/payment.php" afterPath="$PROJECT_DIR$/view/payment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/templates/fines.html.twig" afterPath="$PROJECT_DIR$/view/templates/fines.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/templates/index.html.twig" afterPath="$PROJECT_DIR$/view/templates/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/templates/login.html.twig" afterPath="$PROJECT_DIR$/view/templates/login.html.twig" />
     </list>
     <ignored path="applied_project_web_client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,80 +71,6 @@
         <option name="myItemId" value="MySQL - shutter_cop_db@localhost [2]" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="vehicle" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - shutter_cop_db@localhost [2]" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="payments" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - shutter_cop_db@localhost [2]" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="offence" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - shutter_cop_db@localhost [2]" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="law_enforcers" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - shutter_cop_db@localhost [2]" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="fines" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - shutter_cop_db@localhost [2]" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="driver" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -191,30 +79,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/templates/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2916665">
-              <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fines.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/templates/fines.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.416667">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shutter_cop_db.fines" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.fines">
+      <file leaf-file-name="shutter_cop_db.vehicle" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.vehicle">
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -228,85 +94,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/payment.php">
+      <file leaf-file-name="offence.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/offence.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.416667">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="29" />
+            <state vertical-scroll-proportion="-55.625">
+              <caret line="89" column="33" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="33" />
               <folding>
-                <element signature="e#6#96#0#PHP" expanded="false" />
+                <element signature="e#6#78#0#PHP" expanded="true" />
+                <marker date="1460918872000" expanded="true" signature="428:524" placeholder="INSERT INTO offence... " />
+                <marker date="1460918872000" expanded="true" signature="941:1750" placeholder="SELECT D.fir... offence" />
+                <marker date="1460918872000" expanded="true" signature="2121:2406" placeholder="SELECT COUNT... offence" />
+                <marker date="1460918872000" expanded="true" signature="2789:3605" placeholder="SELECT D.fir... offence" />
+                <marker date="1460918872000" expanded="true" signature="3913:4205" placeholder="SELECT COUNT... offence" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fines-controller.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="offence-controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/offence-controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#6#102#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event_sms_sender.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/sms_module/event_sms_sender.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.875">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fines-controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/fines-controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67469877">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="31" />
-              <folding>
-                <element signature="e#6#95#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/templates/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.041666">
-              <caret line="40" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="14" />
+            <state vertical-scroll-proportion="-11.625">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="68" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="27" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="28" />
-              <folding>
-                <element signature="e#6#96#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fines.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/fines.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0416665">
-              <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
-              <folding>
-                <element signature="e#6#95#0#PHP" expanded="true" />
-                <marker date="1459703015000" expanded="true" signature="407:494" placeholder="INSERT INTO fines... " />
-                <marker date="1459703015000" expanded="true" signature="407:495" placeholder="INSERT INTO fines... " />
-                <marker date="1459703015000" expanded="true" signature="407:613" placeholder="INSERT INTO fines... " />
-                <marker date="1459703015000" expanded="true" signature="1031:1365" placeholder="SELECT * FRO... fines" />
-                <marker date="1459703015000" expanded="true" signature="1031:1366" placeholder="SELECT * FRO... fines" />
-                <marker date="1459703015000" expanded="true" signature="1773:2107" placeholder="SELECT * FRO... fines" />
-                <marker date="1459703015000" expanded="true" signature="1773:2162" placeholder="SELECT * FRO... fines" />
-                <marker date="1459703015000" expanded="true" signature="2526:2668" placeholder="UPDATE fines... " />
-                <marker date="1459703015000" expanded="true" signature="2526:2669" placeholder="UPDATE fines... " />
-                <marker date="1459703015000" expanded="true" signature="2942:3281" placeholder="SELECT * FRO... fines" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shutter_cop_db.payments" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.payments">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -314,8 +146,61 @@
       <file leaf-file-name="driver-controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/driver-controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.125">
-              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload_image.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/upload_image.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.0">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fines.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/fines.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.875">
+              <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#95#0#PHP" expanded="true" />
+                <marker date="1461785365000" expanded="true" signature="407:546" placeholder="INSERT INTO fines... " />
+                <marker date="1461785365000" expanded="true" signature="964:1298" placeholder="SELECT * FRO... fines" />
+                <marker date="1461785365000" expanded="true" signature="964:1299" placeholder="SELECT * FRO... fines" />
+                <marker date="1461785365000" expanded="true" signature="1706:2040" placeholder="SELECT * FRO... fines" />
+                <marker date="1461785365000" expanded="true" signature="1706:2095" placeholder="SELECT * FRO... fines" />
+                <marker date="1461785365000" expanded="true" signature="2453:2595" placeholder="UPDATE fines... " />
+                <marker date="1461785365000" expanded="true" signature="2453:2596" placeholder="UPDATE fines... " />
+                <marker date="1461785365000" expanded="true" signature="2946:2975" placeholder="INSERT INTO payments... " />
+                <marker date="1461785365000" expanded="true" signature="2946:3037" placeholder="INSERT INTO payments... " />
+                <marker date="1461785365000" expanded="true" signature="3379:4266" placeholder="SELECT * FRO... fines" />
+                <marker date="1461785365000" expanded="true" signature="4545:4884" placeholder="SELECT * FRO... fines" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/driver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.625">
+              <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23121387">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -342,12 +227,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/model/adb_prepared_statements.php" />
-        <option value="$PROJECT_DIR$/controller/offence-controller.php" />
         <option value="dbtable:/63713ede/b7fd3cd4-fae8-4c73-abfe-af0d6ff05824/shutter_cop_db.fines" />
         <option value="dbtable:/63713ede/b7fd3cd4-fae8-4c73-abfe-af0d6ff05824/shutter_cop_db.driver" />
         <option value="$PROJECT_DIR$/model/adb_procedural.php" />
         <option value="$PROJECT_DIR$/model/config.php" />
-        <option value="$PROJECT_DIR$/model/offence.php" />
         <option value="$PROJECT_DIR$/controller/upload_image.php" />
         <option value="$PROJECT_DIR$/view/login.php" />
         <option value="$PROJECT_DIR$/model/vehicle.php" />
@@ -355,15 +238,30 @@
         <option value="$PROJECT_DIR$/model/law_enforcer.php" />
         <option value="$PROJECT_DIR$/controller/sms_module/event_sms_sender.php" />
         <option value="$PROJECT_DIR$/view/templates/login.html.twig" />
-        <option value="$PROJECT_DIR$/view/css/main.css" />
         <option value="$PROJECT_DIR$/model/driver.php" />
-        <option value="$PROJECT_DIR$/controller/driver-controller.php" />
-        <option value="$PROJECT_DIR$/view/index.php" />
-        <option value="$PROJECT_DIR$/model/fines.php" />
-        <option value="$PROJECT_DIR$/controller/fines-controller.php" />
-        <option value="$PROJECT_DIR$/view/payment.php" />
+        <option value="$PROJECT_DIR$/view/css/main.css" />
         <option value="$PROJECT_DIR$/view/templates/fines.html.twig" />
+        <option value="$PROJECT_DIR$/view/templates/receipt.html.twig" />
+        <option value="$PROJECT_DIR$/view/receipt_gen.php" />
+        <option value="$PROJECT_DIR$/view/index.php" />
+        <option value="$PROJECT_DIR$/view/payment.php" />
         <option value="$PROJECT_DIR$/view/templates/index.html.twig" />
+        <option value="$PROJECT_DIR$/view/receipt.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/console_1.sql" />
+        <option value="$PROJECT_DIR$/controller/fines-controller.php" />
+        <option value="$PROJECT_DIR$/model/security.php" />
+        <option value="$PROJECT_DIR$/controller/insurance_api/HttpHandlers.php" />
+        <option value="$PROJECT_DIR$/model/ShutterCopApi.php" />
+        <option value="$PROJECT_DIR$/controller/insurance_api/Insurance_Api.php" />
+        <option value="$PROJECT_DIR$/model/AuthApiUser.php" />
+        <option value="$PROJECT_DIR$/controller/insurance_api/ApiTest.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/console.sql" />
+        <option value="$PROJECT_DIR$/model/offence.php" />
+        <option value="$PROJECT_DIR$/model/Tests/FinesTest.php" />
+        <option value="$PROJECT_DIR$/model/Tests/OffenceTest.php" />
+        <option value="$PROJECT_DIR$/controller/offence-controller.php" />
+        <option value="$PROJECT_DIR$/controller/driver-controller.php" />
+        <option value="$PROJECT_DIR$/model/fines.php" />
       </list>
     </option>
   </component>
@@ -381,10 +279,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="432" />
-    <option name="y" value="96" />
-    <option name="width" value="1043" />
-    <option name="height" value="725" />
+    <option name="x" value="184" />
+    <option name="y" value="23" />
+    <option name="width" value="1096" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -412,6 +310,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -427,64 +326,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="applied_project_web_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applied_project_web_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applied_project_web_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applied_project_web_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applied_project_web_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applied_project_web_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applied_project_web_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,9 +357,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applied_project_web_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applied_project_web_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applied_project_web_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applied_project_web_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,11 +412,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/view" />
       <recent name="$PROJECT_DIR$/view/img" />
       <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$/view/css" />
-      <recent name="$PROJECT_DIR$/view/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/model" />
@@ -650,18 +526,24 @@
       <option name="project" value="LOCAL" />
       <updated>1459388578438</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added functions for vehicle model class">
+      <created>1459704906620</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1459704906620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="432" y="96" width="1043" height="725" extended-state="0" />
+    <frame x="184" y="23" width="1096" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18981019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25711575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2306425" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24975026" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08199357" sideWeight="0.27857143" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20683111" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -672,8 +554,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17363344" sideWeight="0.7214286" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49722442" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -703,111 +586,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/fines.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/offence-controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/fines-controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/law-enforcer-controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/driver-controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7fd3cd4-fae8-4c73-abfe-af0d6ff05824/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/adb_prepared_statements.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Smsgh/Api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/uploadedimages/IMG_20160210_001412.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/uploadedimages/image-c45c9aceeb64c3fed014ab871efe5c008b271abc33bf3d317b4a4a9d1a1db188-V.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/uploadedimages/Cover.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/uploadedimages/Snapchat-1296598801906278036.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/uploadedimages/Screenshot_2016-02-10-23-04-26.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/uploadedimages/Screenshot_2016-02-09-11-57-48.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/uploadedimages/Screenshot_2016-02-04-12-13-27.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/uploadedimages/Screenshot_2016-02-02-17-56-14.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -846,69 +624,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.driver">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/fileUpload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.166667">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/upload_image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.791667">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/offence-controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/adb_object.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/offence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding>
-            <element signature="e#6#102#0#PHP" expanded="true" />
-            <marker date="1459384776000" expanded="true" signature="489:548" placeholder="INSERT INTO offence... " />
-            <marker date="1459384776000" expanded="true" signature="489:584" placeholder="INSERT INTO offence... " />
-            <marker date="1459384776000" expanded="true" signature="489:585" placeholder="INSERT INTO offence... " />
-            <marker date="1459384776000" expanded="true" signature="1002:1242" placeholder="SELECT * FRO... offence" />
-            <marker date="1459384776000" expanded="true" signature="1002:1243" placeholder="SELECT * FRO... offence" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,35 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-          <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1459387835000" expanded="true" signature="469:509" placeholder="SELECT * FRO... law_enforcers" />
-            <marker date="1459387835000" expanded="true" signature="469:510" placeholder="SELECT * FRO... law_enforcers" />
-            <marker date="1459387835000" expanded="true" signature="1087:1137" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1459387835000" expanded="true" signature="1087:1145" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1459387835000" expanded="true" signature="1087:1164" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1459387835000" expanded="true" signature="1087:1166" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1459387835000" expanded="true" signature="1087:1206" placeholder="INSERT INTO law_enforcers... " />
-            <marker date="1459387835000" expanded="true" signature="1643:1670" placeholder="SELECT * FRO... law_enforcers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/sms_module/event_sms_sender.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/law-enforcer-controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,66 +650,167 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/css/main.css">
+    <entry file="file://$PROJECT_DIR$/view/templates/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.125">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="-16.041666">
+          <caret line="40" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/login.php">
+    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.fines">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.payments">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/font/times.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/fpdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="48.125">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/vehicle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.416667">
+        <state vertical-scroll-proportion="-40.625">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="true" />
-            <marker date="1459387294000" expanded="true" signature="639:774" placeholder="INSERT INTO vehicle... " />
-            <marker date="1459387294000" expanded="true" signature="1278:1285" placeholder="SELECT * FRO... " />
-            <marker date="1459387294000" expanded="true" signature="1278:1286" placeholder="SELECT * FRO... " />
-            <marker date="1459387294000" expanded="true" signature="1278:1428" placeholder="SELECT * FRO... vehicle" />
-            <marker date="1459387294000" expanded="true" signature="1278:1429" placeholder="SELECT * FRO... vehicle" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/driver.php">
+    <entry file="file://$PROJECT_DIR$/view/receipt_gen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2916665">
-          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="49" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="true" />
-            <marker date="1459700762000" expanded="true" signature="488:501" placeholder="SELECT * FRO... " />
-            <marker date="1459700762000" expanded="true" signature="488:520" placeholder="SELECT * FRO... driver" />
-            <marker date="1459700762000" expanded="true" signature="488:521" placeholder="SELECT * FRO... driver" />
-            <marker date="1459700762000" expanded="true" signature="488:522" placeholder="SELECT * FRO... driver" />
-            <marker date="1459700762000" expanded="true" signature="1385:1472" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1473" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1509" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1544" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1585" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1620" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1659" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1700" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1749" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1788" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1832" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1865" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="1385:1866" placeholder="INSERT INTO driver... " />
-            <marker date="1459700762000" expanded="true" signature="2402:2422" placeholder="SELECT * FRO... driver" />
-          </folding>
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates/receipt.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates/fines.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/law-enforcer-controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.75">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/receipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.api_users">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.offence">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/insurance_api/ApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.law_enforcers">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1029,6 +820,103 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/ShutterCopApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.driver">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32894737">
+          <caret line="10" column="150" selection-start-line="10" selection-start-column="150" selection-end-line="10" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Tests/FinesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#96#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Tests/OffenceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#96#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/AuthApiUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="21.416666">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+          <folding>
+            <marker date="1460563330000" expanded="true" signature="459:480" placeholder="INSERT INTO api_users... " />
+            <marker date="1460563330000" expanded="true" signature="459:532" placeholder="INSERT INTO api_users... " />
+            <marker date="1460563330000" expanded="true" signature="1427:1493" placeholder="SELECT FROM api_users" />
+            <marker date="1460563330000" expanded="true" signature="1427:1496" placeholder="SELECT AU.se... api_users" />
+            <marker date="1460563330000" expanded="true" signature="1427:1528" placeholder="SELECT AU.se... api_users" />
+            <marker date="1460563330000" expanded="true" signature="1427:1538" placeholder="SELECT AU.se... api_users" />
+            <marker date="1460563330000" expanded="true" signature="1427:1539" placeholder="SELECT AU.se... api_users" />
+            <marker date="1460563330000" expanded="true" signature="1427:1540" placeholder="SELECT AU.se... api_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/fileUpload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.25">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/insurance_api/HttpHandlers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/insurance_api/Insurance_Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.25">
+          <caret line="92" column="56" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,113 +933,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/driver-controller.php">
+    <entry file="file://$PROJECT_DIR$/model/offence.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.125">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.041666">
-          <caret line="40" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="27" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="28" />
+        <state vertical-scroll-proportion="-55.625">
+          <caret line="89" column="33" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="33" />
           <folding>
-            <element signature="e#6#96#0#PHP" expanded="false" />
+            <element signature="e#6#78#0#PHP" expanded="true" />
+            <marker date="1460918872000" expanded="true" signature="428:524" placeholder="INSERT INTO offence... " />
+            <marker date="1460918872000" expanded="true" signature="941:1750" placeholder="SELECT D.fir... offence" />
+            <marker date="1460918872000" expanded="true" signature="2121:2406" placeholder="SELECT COUNT... offence" />
+            <marker date="1460918872000" expanded="true" signature="2789:3605" placeholder="SELECT D.fir... offence" />
+            <marker date="1460918872000" expanded="true" signature="3913:4205" placeholder="SELECT COUNT... offence" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.payments">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/controller/sms_module/event_sms_sender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.875">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/fines.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0416665">
-          <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="true" />
-            <marker date="1459703015000" expanded="true" signature="407:494" placeholder="INSERT INTO fines... " />
-            <marker date="1459703015000" expanded="true" signature="407:495" placeholder="INSERT INTO fines... " />
-            <marker date="1459703015000" expanded="true" signature="407:613" placeholder="INSERT INTO fines... " />
-            <marker date="1459703015000" expanded="true" signature="1031:1365" placeholder="SELECT * FRO... fines" />
-            <marker date="1459703015000" expanded="true" signature="1031:1366" placeholder="SELECT * FRO... fines" />
-            <marker date="1459703015000" expanded="true" signature="1773:2107" placeholder="SELECT * FRO... fines" />
-            <marker date="1459703015000" expanded="true" signature="1773:2162" placeholder="SELECT * FRO... fines" />
-            <marker date="1459703015000" expanded="true" signature="2526:2668" placeholder="UPDATE fines... " />
-            <marker date="1459703015000" expanded="true" signature="2526:2669" placeholder="UPDATE fines... " />
-            <marker date="1459703015000" expanded="true" signature="2942:3281" placeholder="SELECT * FRO... fines" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/63713ede/3c9b9cb9-cf0c-47f5-882e-2cc7204af2f6/shutter_cop_db.fines">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.416667">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="e#6#96#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates/fines.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.416667">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2916665">
-          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/fines-controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67469877">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="31" />
+        <state vertical-scroll-proportion="-11.625">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="68" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/driver-controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/upload_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.0">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/offence-controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#102#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/fines.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.875">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
+            <marker date="1461785365000" expanded="true" signature="407:546" placeholder="INSERT INTO fines... " />
+            <marker date="1461785365000" expanded="true" signature="964:1298" placeholder="SELECT * FRO... fines" />
+            <marker date="1461785365000" expanded="true" signature="964:1299" placeholder="SELECT * FRO... fines" />
+            <marker date="1461785365000" expanded="true" signature="1706:2040" placeholder="SELECT * FRO... fines" />
+            <marker date="1461785365000" expanded="true" signature="1706:2095" placeholder="SELECT * FRO... fines" />
+            <marker date="1461785365000" expanded="true" signature="2453:2595" placeholder="UPDATE fines... " />
+            <marker date="1461785365000" expanded="true" signature="2453:2596" placeholder="UPDATE fines... " />
+            <marker date="1461785365000" expanded="true" signature="2946:2975" placeholder="INSERT INTO payments... " />
+            <marker date="1461785365000" expanded="true" signature="2946:3037" placeholder="INSERT INTO payments... " />
+            <marker date="1461785365000" expanded="true" signature="3379:4266" placeholder="SELECT * FRO... fines" />
+            <marker date="1461785365000" expanded="true" signature="4545:4884" placeholder="SELECT * FRO... fines" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.625">
+          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23121387">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

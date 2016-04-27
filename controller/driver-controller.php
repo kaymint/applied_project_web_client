@@ -8,11 +8,9 @@
 
 session_start();
 
+if(isset($_REQUEST['cmd'])){
 
-
-if(isset($_POST['cmd'])){
-
-    $cmd = intval($_POST['cmd']);
+    $cmd = intval($_REQUEST['cmd']);
 
     switch($cmd){
 
@@ -21,7 +19,7 @@ if(isset($_POST['cmd'])){
             loginDriver();
             break;
         case 2:
-
+            logout();
             break;
     }
 
@@ -33,7 +31,7 @@ function loginDriver(){
     if(isset($_POST['PIN'])){
         require_once '../model/driver.php';
 
-        $PIN = $_POST['PIN'];
+        $PIN = sanitize_string($_POST['PIN']);
 
 
         $driver = new driver();
@@ -58,4 +56,22 @@ function loginDriver(){
             header("Location: ../view/index.php");
         }
     }
+}
+
+
+function logout(){
+    session_destroy();
+    header("Location: ../view/login.php");
+}
+
+/**
+ * @param $val
+ * @return string
+ */
+function sanitize_string($val){
+    $val = stripslashes($val);
+    $val = strip_tags($val);
+    $val = htmlentities($val);
+
+    return $val;
 }

@@ -7,6 +7,10 @@
  */
 session_start();
 
+if(!isset($_SESSION['PIN'])){
+    header("Location: login.php");
+}
+
 require_once 'Twig-1.x/lib/Twig/Autoloader.php';
 require_once '../model/driver.php';
 require_once '../model/fines.php';

@@ -1,0 +1,31 @@
+{% extends "index.html.twig" %}
+
+
+{% block MAINCONTENT %}
+    <div class="col-sm-9">
+        <div class="container col-xs-12">
+            <h1 class="col-xs-12">Fine Payment</h1>
+            <ul class="breadcrumb col-xs-12">
+                <li><a href="index.php">Home</a></li>
+                <li class="active">Payment Confirmation</li>
+            </ul>
+            <br>
+            <br>
+            <h4 class="text-primary col-xs-12">Receipt Details:</h4>
+            <p>Date of Offence: {{ receipt_details.offence_date }}</p>
+            <p>Location: {{ receipt_details.location }}</p>
+            <p>Date Paid: {{ receipt_details.date_paid }}</p>
+            <p>Paid By: {{ receipt_details.drivername }}</p>
+            <p>Driver PIN: {{ receipt_details.PIN }}</p>
+            <p>Receipt#: {{ receipt_details.receipt_no }}</p>
+            <p>Offence#: {{ receipt_details.offence_no }}</p>
+            <p>Vehicle#: {{ receipt_details.license_no }}</p>
+            <br>
+            <h4 class="text-primary"><em>Amount Paid: </em> GHS {{ receipt_details.amount }}</h4>
+
+            <a href="receipt_gen.php" class="btn btn-primary">Print Receipt</a>
+
+        </div>
+    </div>
+
+{% endblock %}

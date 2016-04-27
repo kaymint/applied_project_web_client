@@ -4,14 +4,14 @@
 {% block MAINCONTENT %}
     <div class="col-sm-9">
     <div class="container">
-        <h1>Fine Payment</h1>
-        <ul class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li class="active">Fine Payment</li>
+        <h1 class="col-xs-12" >Fine Payment</h1>
+        <ul class="breadcrumb col-xs-12">
+            <li><a href="index.php">Home</a></li>
+            <li class="active">Payment Confirmation</li>
         </ul>
         <br>
         <br>
-        <h4 class="text-primary">Fine Details:</h4>
+        <h4 class="text-primary col-xs-12">Fine Details:</h4>
         <p>Date of Offence: {{ fine_details.date_issued }}</p>
         <p>Location: {{ fine_details.location }}</p>
         <p>Amount Due: <b>GHS 500.00</b></p>
@@ -19,7 +19,7 @@
         <h4 class="text-primary">Payment Options:</h4>
         <div class="form-group">
 
-            <div class="col-lg-10">
+            <div class="col-xs-12">
                 <div class="radio">
                     <label>
                         <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
