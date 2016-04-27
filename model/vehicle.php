@@ -51,9 +51,8 @@ class Vehicle extends adb_object{
 
     /**
      * Executes a query to fetch the details of vehicle by their license no.
-     *
      * @param $license_no
-     * @return bool
+     * @return bool|mysqli_result
      */
     function getVehicleDetails($license_no){
         $str_query = "SELECT *

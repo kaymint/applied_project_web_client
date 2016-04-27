@@ -23,7 +23,7 @@ class Fines extends adb_object{
      */
     function addFines($offence_id){
         $str_query = "INSERT INTO fines(offence_id, due_date, date_issued)
-                      VALUES ?, DATE_ADD(CURDATE(), INTERVAL 7 DAY), CURRENT_TIMESTAMP";
+                      VALUES (?, DATE_ADD(CURDATE(), INTERVAL 7 DAY), CURRENT_TIMESTAMP)";
 
         $stmt = $this->prepareQuery($str_query);
 

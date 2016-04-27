@@ -14,11 +14,11 @@ require_once '../Smsgh/Api.php';
  */
 function setupSMS(){
 
-    $auth = new BasicAuth("yralkzfn", "znbzlsho");
+    //$auth = new BasicAuth("yralkzfn", "znbzlsho");
 
     //$auth = new BasicAuth("jokyhrvs", "volkzmqn");
 
-    //$auth = new BasicAuth("igkoydll", "dngiqlfo");
+    $auth = new BasicAuth("igkoydll", "dngiqlfo");
     $apiHost = new ApiHost($auth);
 
     $messagingApi = new MessagingApi($apiHost);
@@ -44,5 +44,3 @@ function sendSMS($phone, $message){
         echo $ex->getTraceAsString();
     }
 }
-
-

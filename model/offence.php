@@ -25,15 +25,18 @@ class Offence extends adb_object{
     function addOffence($vehicle_id, $location){
         $str_query = "INSERT INTO offence SET
                       vehicle_id = ?,
-                      location = ?";
+                      location = ?,
+                      date = ?";
 
         $stmt = $this->prepareQuery($str_query);
+
+        $date = date("Y-m-d");
 
         if($stmt === false){
             return false;
         }
 
-        $stmt->bind_param("ss", $vehicle_id, $location);
+        $stmt->bind_param("sss", $vehicle_id, $location, $date);
 
         $stmt->execute();
 
